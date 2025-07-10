@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timestamp Microservice 2</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    pre {
+      background-color: #f5f5f5;
+      padding: 10px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>Timestamp Microservice 2</h1>
+  
+  <h3>Example Usage:</h3>
+  <ul>
+    <li><code>/api/2025-07-10</code></li>
+    <li><code>/api/1451001600000</code></li>
+    <li><code>/api/</code> (当前时间)</li>
+  </ul>
+  
+  <h3>Example Output:</h3>
+  <pre>{"unix":1657401600000,"utc":"Thu, 10 Jul 2025 00:00:00 GMT"}</pre>
+  
+  <h3>Error Output:</h3>
+  <pre>{"error":"Invalid Date"}</pre>
+  
+  <p>项目部署后，将通过Netlify提供访问链接。</p>
+</body>
+</html>    

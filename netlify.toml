@@ -1,0 +1,11 @@
+[build]
+  command = "npm install && npm start"
+  publish = "public"
+
+[functions]
+  directory = "api"
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/server"
+  status = 200    
